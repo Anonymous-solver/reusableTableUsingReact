@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import Movies from './components/movies.component';
-import Nav from './components/nav.component';
-import Students from './components/students.component';
+import React, { Component } from "react";
+import Movies from "./components/movies.component";
+import Nav from "./components/nav.component";
+import Students from "./components/students.component";
 
 class App extends Component {
-	
-	render() { 
+	render() {
 		return (
 			<>
 				<Nav></Nav>
@@ -15,5 +14,5 @@ class App extends Component {
 		);
 	}
 }
- 
+
 export default App;
